@@ -6,16 +6,16 @@
 ### Yen-USD Historical Trend
 #### Observation: The Yen has had major swings from 1990-2019. Over this period Yen has devalued against USD. There are ceertainly events around 1992, 1996, 2000 and 2015 with major spikes. Since 2008-2015, there has been consistent weekening that was reversed in 2016 with Yen strengthening against USD. Since 2016, Yen is again weekening against USD until 2019.
 
-###1. Forecasting the Yen-USD Settle Price using Hodrick-Prescott filter Model
+### 1.Forecasting the Yen-USD Settle Price using Hodrick-Prescott filter Model
 ####  Observations: With HP Filter and looking at resulting trends, there are short-term fluctuations. There could be short-term trading opportunities where two color lines in the graph deviates from each oher resulting in Yen undervalued v USD or Yen overvalued against USD resulting in long or short positions respectively.  
 
-###2. Forecasting the Yen-USD Settle Price using an ARMA model
+### 2.Forecasting the Yen-USD Settle Price using an ARMA model
 ####  Observations: As the p-value is greater than  0.05, it is concluded that ARMA model used in Yen-USD forecasting is not a good fit.   
 
-###3. Forecasting the Yen-USD Settle Price using an ARIMA model
+### 3.Forecasting the Yen-USD Settle Price using an ARIMA model
 ####  Observations:As the p-value is greater than  0.05, it is concluded that ARIMA model used in Yen-USD forecasting is not a good fit.   
 
-###4. Forecasting the Yen-USD Settle Price using GARCH model
+### 4.Forecasting the Yen-USD Settle Price using GARCH model
 ####  Observations: As the p-value is is less than  0.05, it is concluded that GARCH model used in Yen-USD forecasting is a good fit and it can be clncluded that volatility (risk) is expected to increase over next five days forecast period.   
 
 ### Overall Conslusion
